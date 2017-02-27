@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 FEB 2017 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 FEB 2017 15:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1040,23 +1040,25 @@ Overfull \hbox (7.25241pt too wide) in paragraph at lines 196--197
 Underfull \vbox (badness 5231) has occurred while \output is active []
 
 
-<figures/OHI_complete_wf_graph_uri.pdf, id=100, 980.66376pt x 910.40125pt>
-File: figures/OHI_complete_wf_graph_uri.pdf Graphic file (type pdf)
+<figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf, id=100, 9
+80.66376pt x 910.40125pt>
+File: figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf Graph
+ic file (type pdf)
 
-<use figures/OHI_complete_wf_graph_uri.pdf>
-Package pdftex.def Info: figures/OHI_complete_wf_graph_uri.pdf used on input li
-ne 223.
+<use figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf>
+Package pdftex.def Info: figures/estimate_status_and_trend_by_year_complete_wf_
+graph_uri.pdf used on input line 223.
 (pdftex.def)             Requested size: 241.14009pt x 238.49075pt.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 7.0pt on input line 223.
 
-<figures/OHI_recon_complete_graph_all_observables.pdf, id=101, 980.66376pt x 88
-8.31876pt>
-File: figures/OHI_recon_complete_graph_all_observables.pdf Graphic file (type p
-df)
- <use figures/OHI_recon_complete_graph_all_observables.pdf>
-Package pdftex.def Info: figures/OHI_recon_complete_graph_all_observables.pdf u
-sed on input line 224.
+<figures/wf_recon_complete_graph_all_observables.pdf, id=101, 980.66376pt x 888
+.31876pt>
+File: figures/wf_recon_complete_graph_all_observables.pdf Graphic file (type pd
+f)
+ <use figures/wf_recon_complete_graph_all_observables.pdf>
+Package pdftex.def Info: figures/wf_recon_complete_graph_all_observables.pdf us
+ed on input line 224.
 (pdftex.def)             Requested size: 241.14009pt x 238.48026pt.
 LaTeX Font Info:    Font shape `OT1/zi4/bx/n' in size <9> not available
 (Font)              Font shape `OT1/zi4/b/n' tried instead on input line 225.
@@ -1125,8 +1127,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--248
 lti[]runs ret-
  []
 
-[4.4 <./figures/OHI_complete_wf_graph_uri.pdf> <./figures/OHI_recon_complete_gr
-aph_all_observables.pdf> <./figures/trace.pdf>]
+[4.4 <./figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf> <.
+/figures/wf_recon_complete_graph_all_observables.pdf> <./figures/trace.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 252--252
 [][][][][]$\OT1/LinuxLibertineT-TLF/m/n/7 (+20) hŠps : / / github . com / yeswo
 rkƒow-[]org / yw-[]idcc-[]17 / tree / master / examples / C3C4 /
@@ -1192,7 +1194,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
  19775 strings out of 493014
- 293692 string characters out of 6133351
+ 293837 string characters out of 6133351
  499016 words of memory out of 5000000
  22572 multiletter control sequences out of 15000+600000
  68647 words of font info for 222 fonts, out of 8000000 for 9000
@@ -1216,7 +1218,7 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 570389 byte
+Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 567802 byte
 s).
 PDF statistics:
  326 PDF objects out of 1000 (max. 8388607)
