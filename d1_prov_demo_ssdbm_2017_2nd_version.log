@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2017 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 FEB 2017 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,17 +703,14 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(./d1_prov_demo_ssdbm_2017_2nd_version.aux
-
-LaTeX Warning: Label `prov-hybrid-query' multiply defined.
-
-)
+(./d1_prov_demo_ssdbm_2017_2nd_version.aux)
 \openout1 = `d1_prov_demo_ssdbm_2017_2nd_version.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 33.
 LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 33
 .
- (/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
 LaTeX Font Info:    ... okay on input line 33.
@@ -1091,7 +1088,7 @@ File: figures/trace.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/trace.pdf used on input line 233.
 (pdftex.def)             Requested size: 217.03003pt x 231.25774pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
 [][][][][]$\OT1/LinuxLibertineT-TLF/m/n/7 (+20) hŠps : / / github . com / yeswo
 rkƒow-[]org / yw-[]idcc-[]17 / tree / master / OHIBC[]Howe[]
  []
@@ -1109,7 +1106,7 @@ s \OT1/zi4/m/n/9 multi[]scripts[]multi[]runs
  []
 
 
-<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=159, 2637.855pt x 1040.88875p
+<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=158, 2637.855pt x 1040.88875p
 t>
 File: figures/OHI_upstream_of_lsp_trend_sha256.pdf Graphic file (type pdf)
  <use figures/OHI_upstream_of_lsp_trend_sha256.pdf>
@@ -1136,7 +1133,7 @@ rkƒow-[]org / yw-[]idcc-[]17 / tree / master / examples / C3C4 /
  []
 
 
-<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=218, 3176.86874pt x 1521.685pt
+<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=216, 3176.86874pt x 1521.685pt
 >
 File: figures/C3C4v2_upstream_of_Grass_sha256.pdf Graphic file (type pdf)
  <use figures/C3C4v2_upstream_of_Grass_sha256.pdf>
@@ -1172,8 +1169,11 @@ Underfull \hbox (badness 1527) in paragraph at lines 259--259
 ge yel-low
  []
 
-[5.5 <./figures/OHI_upstream_of_lsp_trend_sha256.pdf> <./figures/C3C4v2_upstrea
-m_of_Grass_sha256.pdf>] (./d1_prov_demo_ssdbm_2017_2nd_version.bbl
+
+Underfull \vbox (badness 3792) has occurred while \output is active []
+
+ [5.5 <./figures/OHI_upstream_of_lsp_trend_sha256.pdf> <./figures/C3C4v2_upstre
+am_of_Grass_sha256.pdf>] (./d1_prov_demo_ssdbm_2017_2nd_version.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 41.
 
@@ -1188,17 +1188,13 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `d1_prov_demo_ssdbm_2017_2nd_version.out' has
  not changed.
 (rerunfilecheck)             Checksum: E687DA2767875D471316D58BFCE22969;977.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 19774 strings out of 493014
- 293674 string characters out of 6133351
- 499030 words of memory out of 5000000
- 22571 multiletter control sequences out of 15000+600000
+ 19775 strings out of 493014
+ 293692 string characters out of 6133351
+ 499016 words of memory out of 5000000
+ 22572 multiletter control sequences out of 15000+600000
  68647 words of font info for 222 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,14n,94p,1670b,2097s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1220,11 +1216,11 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 570392 byte
+Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 570389 byte
 s).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
+ 326 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
  101 named destinations out of 1000 (max. 500000)
  38986 words of extra memory for PDF output out of 42996 (max. 10000000)
 
