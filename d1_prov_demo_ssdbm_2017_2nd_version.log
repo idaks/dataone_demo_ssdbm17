@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 FEB 2017 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 FEB 2017 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1000,7 +1000,7 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-Underfull \vbox (badness 3098) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 164--164
@@ -1185,11 +1185,11 @@ Package rerunfilecheck Info: File `d1_prov_demo_ssdbm_2017_2nd_version.out' has
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 19796 strings out of 493014
- 295047 string characters out of 6133351
- 500841 words of memory out of 5000000
+ 19799 strings out of 493014
+ 295122 string characters out of 6133351
+ 500783 words of memory out of 5000000
  22535 multiletter control sequences out of 15000+600000
- 74082 words of font info for 259 fonts, out of 8000000 for 9000
+ 74355 words of font info for 261 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,14n,94p,1670b,1868s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}
@@ -1210,7 +1210,7 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 578821 byte
+Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 578828 byte
 s).
 PDF statistics:
  357 PDF objects out of 1000 (max. 8388607)
