@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 FEB 2017 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 FEB 2017 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1031,7 +1031,7 @@ Overfull \hbox (7.25241pt too wide) in paragraph at lines 195--196
  []
 
 
-<figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf, id=112, 9
+<figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf, id=113, 9
 80.66376pt x 910.40125pt>
 File: figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf Graph
 ic file (type pdf)
@@ -1043,7 +1043,7 @@ graph_uri.pdf used on input line 222.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 7.0pt on input line 222.
 
-<figures/wf_recon_complete_graph_all_observables.pdf, id=113, 980.66376pt x 888
+<figures/wf_recon_complete_graph_all_observables.pdf, id=114, 980.66376pt x 888
 .31876pt>
 File: figures/wf_recon_complete_graph_all_observables.pdf Graphic file (type pd
 f)
@@ -1074,7 +1074,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--224
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3.3]
-<figures/trace.pdf, id=166, 1070.71025pt x 575.14874pt>
+<figures/trace.pdf, id=167, 1070.71025pt x 575.14874pt>
 File: figures/trace.pdf Graphic file (type pdf)
 
 <use figures/trace.pdf>
@@ -1100,7 +1100,7 @@ s \OT1/zi4/m/n/9 multi[]scripts[]multi[]runs
 
 [4.4 <./figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf> <.
 /figures/wf_recon_complete_graph_all_observables.pdf> <./figures/trace.pdf>]
-<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=230, 2637.855pt x 1040.88875p
+<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=231, 2637.855pt x 1040.88875p
 t>
 File: figures/OHI_upstream_of_lsp_trend_sha256.pdf Graphic file (type pdf)
  <use figures/OHI_upstream_of_lsp_trend_sha256.pdf>
@@ -1126,7 +1126,7 @@ rkƒow-[]org / yw-[]idcc-[]17 / tree / master / examples / C3C4 /
  []
 
 
-<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=234, 3176.86874pt x 1521.685pt
+<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=235, 3176.86874pt x 1521.685pt
 >
 File: figures/C3C4v2_upstream_of_Grass_sha256.pdf Graphic file (type pdf)
  <use figures/C3C4v2_upstream_of_Grass_sha256.pdf>
@@ -1185,11 +1185,11 @@ Package rerunfilecheck Info: File `d1_prov_demo_ssdbm_2017_2nd_version.out' has
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 19799 strings out of 493014
- 295122 string characters out of 6133351
- 500783 words of memory out of 5000000
+ 19796 strings out of 493014
+ 295044 string characters out of 6133351
+ 500740 words of memory out of 5000000
  22535 multiletter control sequences out of 15000+600000
- 74355 words of font info for 261 fonts, out of 8000000 for 9000
+ 74082 words of font info for 259 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,14n,94p,1670b,1868s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}
@@ -1210,11 +1210,11 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 578828 byte
+Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 578936 byte
 s).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
+ 358 PDF objects out of 1000 (max. 8388607)
+ 318 compressed objects within 4 object streams
  109 named destinations out of 1000 (max. 500000)
  39498 words of extra memory for PDF output out of 42996 (max. 10000000)
 
