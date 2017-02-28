@@ -2,7 +2,6 @@
 
 \usepackage{booktabs} % For formal tables
 \usepackage{subfig}
-\usepackage{cite}
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{color}
@@ -91,7 +90,7 @@ We use query-based approach for provenance analysis. A query is implemented in P
 The rest of this paper is organized as follows. The three forms of data provenance used in RunManagers are presented in Section~\ref{architecture-prov-query}. Section~\ref{usecases} discusses two example use cases whereas Section~\ref{conclusions} concludes the paper.
 
 \paragraph{\textit{\bf Related Work}}
-Table~\ref{tab:prov_tools} presents a representative set of related provenance tools for provenance collection. YesWorkflow provides prospective graph revealing the data dependencies at the conceptual workflow level. URI-template specifies a file path pattern while user-defined log-files capture runtime provenance observables at any level of granularity. The noWorkflow system (NW) [ref] captures code-level retrospective provenance by employing a Python profiling library to obtain Python function call chains and variable assignments. The DataONE RunManagers [ref] overload and thus intercept file I/O operations to automatically capture runtime observables at the file level. 
+Table~\ref{tab:prov_tools} presents a representative set of related provenance tools for provenance collection. YesWorkflow provides prospective graph revealing the data dependencies at the conceptual workflow level. URI-template specifies a file path pattern while user-defined log-files capture runtime provenance observables at any level of granularity. The noWorkflow system (NW) [ref] captures code-level retrospective provenance by employing a Python profiling library to obtain Python function call chains and variable assignments. The DataONE RunManagers\cite{runmanager} overload and thus intercept file I/O operations to automatically capture runtime observables at the file level. 
 
 \begin{table*}
 \caption{Various Provenance Tools and Methods Breakdown}
@@ -137,7 +136,7 @@ end
 % @END fetch_monthly_mean_precipitation_data
 \end{lstlisting}
 
-YW and RunManagers that are used by DataONE provenance team are used for demo. YesWorkflow (YW) is a prospective provenance tool allowing users to easily recover high-level workflow models latent in scripts using simple user-annotations embedded as script comments [ref]. List~\ref{fig:yw_matlab_tags} shows a code snippet from a MATLAB script with YW annotations: Here, the @begin and @end tags are used to mark code blocks (i.e., processing steps in the YW model); @in and @out tags are used to define the dataflow between blocks; and the @uri template (which is paired with an @in tag) is used to define a where the data file is located. Note that @uri templates define a metadata pattern via so-called template variables (here: ${start\_year}$, ${end\_year}$, and ${month}$). In this way, the script author can document the folder structure and file-naming conventions used by the script. List~\ref{fig:yw_R_tags} shows a YW annotation block in a R script.
+YW and RunManagers that are used by DataONE provenance team are used for demo. YesWorkflow (YW) is a prospective provenance tool allowing users to easily recover high-level workflow models latent in scripts using simple user-annotations embedded as script comments\cite{yesworkflow}. List~\ref{fig:yw_matlab_tags} shows a code snippet from a MATLAB script with YW annotations: Here, the @begin and @end tags are used to mark code blocks (i.e., processing steps in the YW model); @in and @out tags are used to define the dataflow between blocks; and the @uri template (which is paired with an @in tag) is used to define a where the data file is located. Note that @uri templates define a metadata pattern via so-called template variables (here: ${start\_year}$, ${end\_year}$, and ${month}$). In this way, the script author can document the folder structure and file-naming conventions used by the script. List~\ref{fig:yw_R_tags} shows a YW annotation block in a R script.
 
 %-------------------------------------------------------------
 \begin{lstlisting} [caption={YW annotation block in one OHIBC R script},label={fig:yw_R_tags}, language=R] 
@@ -214,7 +213,7 @@ To demonstrate the provenance data dependency analysis using three forms of capt
 
 \section{Example Use Cases} \label{usecases}
 
-In this demo, two real-life scientific examples are used: (A) a workflow for Ocean Health Index (OHI) for Howe Sound, British Columbia [ref]; (B) a workflow for Carbon3/Carbon4 (C3/C4) soil mapping for North America [ref]. The OHIBC example calculates the region's status based upon percent of protected area within 1 km inland buffer and percent of protected area within 3 nautical mile offshore buffer, compared to a reference point of 30\% protected area. The data sources used in the OHIBC workflow include: (1) BC-specific WDPA dataset that was created from WDPA global dataset, then rasterize to BC Albers at 500m resolution; (2) BC Parks, Ecological Reserves, and Protected Areas (PEP) data. The OHIBC workflow creates two outputs: one file is for estimate of status by region since 1980 (\texttt{lsp\_status.csv}) and the other file is for estimate of trend by region since 1980 (\texttt{lsp\_trend.csv}). The OHIBC Howe Sound workflow runs in a batch mode.
+In this demo, two real-life scientific examples are used: (A) a workflow for Ocean Health Index (OHI) for Howe Sound, British Columbia\cite{ohibc}; (B) a workflow for Carbon3/Carbon4 (C3/C4) soil mapping for North America\cite{MsTMIP-model-driver-data-set, MsTMIP-model-output-data-set}. The OHIBC example calculates the region's status based upon percent of protected area within 1 km inland buffer and percent of protected area within 3 nautical mile offshore buffer, compared to a reference point of 30\% protected area. The data sources used in the OHIBC workflow include: (1) BC-specific WDPA dataset that was created from WDPA global dataset, then rasterize to BC Albers at 500m resolution; (2) BC Parks, Ecological Reserves, and Protected Areas (PEP) data. The OHIBC workflow creates two outputs: one file is for estimate of status by region since 1980 (\texttt{lsp\_status.csv}) and the other file is for estimate of trend by region since 1980 (\texttt{lsp\_trend.csv}). The OHIBC Howe Sound workflow runs in a batch mode.
 
 RunManager can show the prospective provenance and retrospective provenance as graphs for one script. There are eleven R scripts in the OHIBC example.  A user can add YW tags to these R scripts to show prospective provenance graphs. Then, the user can start to run the OHIBC example using RunManager. After the run was done, the retrospective provenances (e.g., the execution of each script, used files, generated files including file path, file content, size, and archived file path) are captured and stored in the database. After exporting retrospective provenance as a list of input and output file paths, hybrid provenance can be derived by joining retrospective provenance and prospective provenance facts using shared resource ids. Figure~\ref{fig:hs_yw} depicts the prospective and hybrid graphs. 
 
@@ -263,7 +262,7 @@ The second example script (in MATLAB) produces Carbon 3/Carbon 4 (C3/C4) soil ma
 
 \paragraph{\textit{\bf Reproducibility}}
 
-DataONE allows to make experiments reproducible by providing two capabilities. First, as we have demonstrated above, DataONE RunManagers are able to capture both prospective and retrospective provenance. Second, DataONE data repository allows users to package workflow results (implemented in any programming languages such as Python, R, MATLAB, SAS, etc.) in a structured DataONE data package and publish to a member node inside a DataONE federation network so that the workflow results (including 2D graphs, 3D graphs, scripts, data, provenance relationship, science metadata describing the experimental methods, authors, geographical coverage,  time coverage provided by data providers, etc.) can be displayed on DataONE data repository and be shared or linked with other scientific experiments in a larger scale. It is different from providing reproducibility based on IPython notebook [ref] or a virtual machine, such as a Docker or a VM. DataONE package contains provenance information (\texttt{prov:used}, \texttt{prov:wasGeneratedBy}, or \texttt{prov:wasDerivedFrom}) to describe the relationships between digital objects and datapackages for reproducibility, instead of only encapsulating digital objects. 
+DataONE allows to make experiments reproducible by providing two capabilities. First, as we have demonstrated above, DataONE RunManagers are able to capture both prospective and retrospective provenance. Second, DataONE data repository allows users to package workflow results (implemented in any programming languages such as Python, R, MATLAB, SAS, etc.) in a structured DataONE data package and publish to a member node inside a DataONE federation network so that the workflow results (including 2D graphs, 3D graphs, scripts, data, provenance relationship, science metadata describing the experimental methods, authors, geographical coverage,  time coverage provided by data providers, etc.) can be displayed on DataONE data repository and be shared or linked with other scientific experiments in a larger scale. It is different from providing reproducibility based on IPython notebook or a virtual machine, such as a Docker or a VM. DataONE package contains provenance information (\texttt{prov:used}, \texttt{prov:wasGeneratedBy}, or \texttt{prov:wasDerivedFrom}) to describe the relationships between digital objects and datapackages for reproducibility, instead of only encapsulating digital objects. 
 
 \section{Conclusions}  \label{conclusions}
 
@@ -273,8 +272,7 @@ Many provenance tools have been developed to capture, store, query and visualize
       
 With our DataONE RunManager demo, we showcase how RunManager can capture, store, query, visualize, and publish prospective, retrospective and hybrid provenance. Moreover, we demonstrated that provenance queries across heterogeneous provenance sources can yield a more complete and comprehensible picture of data provenance. We also think provenance describing datasets can facilitate data discovery for others. 
 
-
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{ssdbm_ref} 
+\bibliography{sigproc} 
 
 \end{document}

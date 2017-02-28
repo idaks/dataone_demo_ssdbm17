@@ -38,4 +38,147 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{BS~Halpern}{BS~Halpern}{2012}]%
+        {ohibc}
+\bibfield{author}{\bibinfo{person}{D~Hardy KL McLeod JF Samhouri SK Katona
+  et~al BS~Halpern, C~Longo}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{\href{http://doi:10.1038/nature11397}{An index to
+  assess the health and benefits of the global ocean}}.
+\newblock \bibinfo{journal}{{\em Nature\/}}  \bibinfo{volume}{488}
+  (\bibinfo{year}{2012}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cao, Jones, Cuevas-Vicenttín, Jones,
+  Ludäscher, McPhillips, Missier, Schwalm, Slaughter, Vieglais, Walker, and
+  Wei}{Cao et~al\mbox{.}}{2016}]%
+        {runmanager}
+\bibfield{author}{\bibinfo{person}{Yang Cao}, \bibinfo{person}{Christopher
+  Jones}, \bibinfo{person}{Víctor Cuevas-Vicenttín},
+  \bibinfo{person}{Matthew~B. Jones}, \bibinfo{person}{Bertram Ludäscher},
+  \bibinfo{person}{Timothy~M. McPhillips}, \bibinfo{person}{Paolo Missier},
+  \bibinfo{person}{Christopher~R. Schwalm}, \bibinfo{person}{Peter Slaughter},
+  \bibinfo{person}{David Vieglais}, \bibinfo{person}{Lauren Walker}, {and}
+  \bibinfo{person}{Yaxing Wei}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{DataONE: A Data Federation with Provenance
+  Support.}. In \bibinfo{booktitle}{{\em IPAW}} {\em (\bibinfo{series}{Lecture
+  Notes in Computer Science})}, \bibfield{editor}{\bibinfo{person}{Marta
+  Mattoso} {and} \bibinfo{person}{Boris Glavic}} (Eds.),
+  Vol.~\bibinfo{volume}{9672}. \bibinfo{publisher}{Springer},
+  \bibinfo{pages}{230--234}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chirigati, Shasha, and Freire}{Chirigati
+  et~al\mbox{.}}{2013}]%
+        {reprozip}
+\bibfield{author}{\bibinfo{person}{Fernando Chirigati}, \bibinfo{person}{Dennis
+  Shasha}, {and} \bibinfo{person}{Juliana Freire}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{ReproZip: Using Provenance to Support Computational
+  Reproducibility}. In \bibinfo{booktitle}{{\em Proceedings of the 5th USENIX
+  Conference on Theory and Practice of Provenance}} {\em
+  (\bibinfo{series}{TaPP'13})}. \bibinfo{pages}{1--1}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Huntzinger, Schwalm, Wei, Cook, Michalak,
+  Schaefer, Jacobson, Arain, Ciais, Fisher, Hayes, Huang, Huang, Ito, Jain,
+  Lei, Lu, Maignan, Mao, Parazoo, Peng, Peng, Poulter, Ricciuto, Tian, Shi,
+  Wang, Zeng, Zhao, and Zhu}{Huntzinger et~al\mbox{.}}{2014}]%
+        {MsTMIP-model-output-data-set}
+\bibfield{author}{\bibinfo{person}{D.N. Huntzinger}, \bibinfo{person}{C.R.
+  Schwalm}, \bibinfo{person}{Y. Wei}, \bibinfo{person}{R.B. Cook},
+  \bibinfo{person}{A.M. Michalak}, \bibinfo{person}{K. Schaefer},
+  \bibinfo{person}{A.R. Jacobson}, \bibinfo{person}{M.A. Arain},
+  \bibinfo{person}{P. Ciais}, \bibinfo{person}{J.B. Fisher},
+  \bibinfo{person}{D.J. Hayes}, \bibinfo{person}{M. Huang}, \bibinfo{person}{S.
+  Huang}, \bibinfo{person}{A. Ito}, \bibinfo{person}{A.K. Jain},
+  \bibinfo{person}{H. Lei}, \bibinfo{person}{C. Lu}, \bibinfo{person}{F.
+  Maignan}, \bibinfo{person}{J. Mao}, \bibinfo{person}{N. Parazoo},
+  \bibinfo{person}{C. Peng}, \bibinfo{person}{S. Peng}, \bibinfo{person}{B.
+  Poulter}, \bibinfo{person}{D.M. Ricciuto}, \bibinfo{person}{H. Tian},
+  \bibinfo{person}{Xiaoying Shi}, \bibinfo{person}{W. Wang},
+  \bibinfo{person}{N. Zeng}, \bibinfo{person}{F. Zhao}, {and}
+  \bibinfo{person}{Q. Zhu}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{\href{http://dx.doi.org/10.3334/ORNLDAAC/1225}{NACP
+  MsTMIP: Global 0.5-deg Terrestrial Biosphere Model Outputs (version 1) in
+  Standard Format}}.
+\newblock   (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lerner and Boose}{Lerner and Boose}{2014}]%
+        {rdatatracker}
+\bibfield{author}{\bibinfo{person}{Barbara Lerner} {and} \bibinfo{person}{Emery
+  Boose}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{RDataTracker: Collecting Provenance in an
+  Interactive Scripting Environment}. In \bibinfo{booktitle}{{\em 6th USENIX
+  Workshop on the Theory and Practice of Provenance (TaPP 2014)}}.
+  \bibinfo{publisher}{USENIX Association}, \bibinfo{address}{Cologne}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McPhillips, Song, Kolisnik, Aulenbach,
+  Belhajjame, Bocinsky, Cao, Chirigati, Dey, Freire, Huntzinger, Jones, Koop,
+  Missier, Schildhauer, Schwalm, Wei, Cheney, Bieda, and
+  Lud{\"a}scher}{McPhillips et~al\mbox{.}}{2015}]%
+        {yesworkflow}
+\bibfield{author}{\bibinfo{person}{Timothy McPhillips},
+  \bibinfo{person}{Tianhong Song}, \bibinfo{person}{Tyler Kolisnik},
+  \bibinfo{person}{Steve Aulenbach}, \bibinfo{person}{Khalid Belhajjame},
+  \bibinfo{person}{Kyle Bocinsky}, \bibinfo{person}{Yang Cao},
+  \bibinfo{person}{Fernando Chirigati}, \bibinfo{person}{Saumen Dey},
+  \bibinfo{person}{Juliana Freire}, \bibinfo{person}{Deborah Huntzinger},
+  \bibinfo{person}{Christopher Jones}, \bibinfo{person}{David Koop},
+  \bibinfo{person}{Paolo Missier}, \bibinfo{person}{Mark Schildhauer},
+  \bibinfo{person}{Christopher Schwalm}, \bibinfo{person}{Yaxing Wei},
+  \bibinfo{person}{James Cheney}, \bibinfo{person}{Mark Bieda}, {and}
+  \bibinfo{person}{Bertram Lud{\"a}scher}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock
+  \showarticletitle{\href{http://www.ijdc.net/index.php/ijdc/article/view/10.1.298}{YesWorkflow:
+  A User-Oriented, Language-Independent Tool for Recovering Workflow
+  Information from Scripts}}.
+\newblock \bibinfo{journal}{{\em International Journal of Digital Curation\/}}
+  \bibinfo{volume}{10} (\bibinfo{year}{2015}), \bibinfo{pages}{298--313}.
+\newblock
+Issue 1.
+
+
+\bibitem[\protect\citeauthoryear{Murta, Braganholo, Chirigati, Koop, and
+  Freire}{Murta et~al\mbox{.}}{2015}]%
+        {noworkflow}
+\bibfield{author}{\bibinfo{person}{Leonardo Murta}, \bibinfo{person}{Vanessa
+  Braganholo}, \bibinfo{person}{Fernando Chirigati}, \bibinfo{person}{David
+  Koop}, {and} \bibinfo{person}{Juliana Freire}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em No Workflow: Capturing and analyzing
+  provenance of scripts}}. \bibinfo{series}{Lecture Notes in Computer Science
+  (including subseries Lecture Notes in Artificial Intelligence and Lecture
+  Notes in Bioinformatics)}, Vol.~\bibinfo{volume}{8628}.
+\newblock \bibinfo{publisher}{Springer Verlag}, \bibinfo{pages}{71--83}.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1007/978-3-319-16462-5_6}}
+
+
+\bibitem[\protect\citeauthoryear{Wei, Liu, Huntzinger, Michalak, Viovy, Post,
+  Schwalm, Schaefer, Jacobson, Lu, Tian, Ricciuto, Cook, Mao, and Shi}{Wei
+  et~al\mbox{.}}{2014}]%
+        {MsTMIP-model-driver-data-set}
+\bibfield{author}{\bibinfo{person}{Y. Wei}, \bibinfo{person}{ShiShi Liu},
+  \bibinfo{person}{D.N. Huntzinger}, \bibinfo{person}{A.M. Michalak},
+  \bibinfo{person}{N. Viovy}, \bibinfo{person}{W.M. Post},
+  \bibinfo{person}{C.R. Schwalm}, \bibinfo{person}{K. Schaefer},
+  \bibinfo{person}{A.R. Jacobson}, \bibinfo{person}{C. Lu}, \bibinfo{person}{H.
+  Tian}, \bibinfo{person}{D.M. Ricciuto}, \bibinfo{person}{R.B. Cook},
+  \bibinfo{person}{J. Mao}, {and} \bibinfo{person}{X. Shi}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{\href{http://dx.doi.org/10.3334/ORNLDAAC/1220}{NACP
+  MsTMIP: Global and North American Driver Data for Multi-Model
+  Intercomparison}}.
+\newblock   (\bibinfo{year}{2014}).
+\newblock
+
+
 \end{thebibliography}
