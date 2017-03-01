@@ -38,6 +38,21 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Barga and Digiampietri}{Barga and
+  Digiampietri}{2008}]%
+        {Barga2008}
+\bibfield{author}{\bibinfo{person}{Roger~S. Barga} {and}
+  \bibinfo{person}{Luciano~A. Digiampietri}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Automatic Capture and Efficient Storage of eScience
+  Experiment Provenance}.
+\newblock \bibinfo{journal}{{\em Concurrency and Computation: Practice and
+  Experience\/}} \bibinfo{volume}{20}, \bibinfo{number}{5}
+  (\bibinfo{year}{2008}), \bibinfo{pages}{419--429}.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1002/cpe.1235}}
+
+
 \bibitem[\protect\citeauthoryear{Cao, Jones, Cuevas-Vicenttín, Jones,
   Ludäscher, McPhillips, Missier, Schwalm, Slaughter, Vieglais, Walker, and
   Wei}{Cao et~al\mbox{.}}{2016}]%
