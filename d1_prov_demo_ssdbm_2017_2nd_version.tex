@@ -5,7 +5,7 @@
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{color}
-
+\usepackage[font=small,labelfont=bf]{caption}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -17,7 +17,7 @@
   belowskip=3mm,
   showstringspaces=false,
   columns=flexible,
-  basicstyle={\small\ttfamily},
+  basicstyle={\footnotesize\ttfamily},
   numbers=none,
   numberstyle=\tiny\color{gray},
   keywordstyle=\color{blue},
@@ -67,7 +67,7 @@
 
 
 \begin{abstract}
-In this demo, we demonstrate a \textcolor{dkgreen}{scientific workflow provenance data management tool} -- DataONE RunManager that  can capture, store, query, visualize, and publish of a single Matlab script or multiple Matlab script runs. The important features of DataONE RunManager software include: (1) There are three forms of data provenance supported by RunManager: prospective provenance, retrospective provenance, and hybrid provenance; (2) \textcolor{dkgreen}{Query-based approach is used for data dependency analysis. For} a workflow project, we have multiple provenance graphs consisting of a graph of prospective provenance, a graph of hybrid provenance, a graph of retrospective multiple\_scripts\_multiple\_runs provenance. 
+In this demo, we demonstrate a \textcolor{dkgreen}{scientific workflow provenance data management tool} -- DataONE RunManager that  can capture, store, query, visualize, and publish of a single Matlab script or multiple Matlab script runs. The important features of DataONE RunManager include: (1) There are three forms of data provenance supported by RunManager: prospective provenance, retrospective provenance, and hybrid provenance; (2) \textcolor{dkgreen}{Query-based approach is used for data dependency analysis. For} a workflow project, we have multiple provenance graphs consisting of a graph of prospective provenance, a graph of hybrid provenance, a graph of retrospective multiple\_scripts\_multiple\_runs provenance. 
 \end{abstract}
 
 
@@ -113,11 +113,9 @@ Table~\ref{tab:prov_tools} presents a representative set of related provenance t
 \end{tabular}
 \end{table*}
 
-\section{Prospective provenance, retrospective provenance and hybrid provenance}  \label{architecture-prov-query}
+\section{Three formats of provenance}  \label{architecture-prov-query}
 
 \texttt{Data provenance} is metadata that describes the origin and processing history of a data artifact. In the computational and data sciences, we can distinguish three forms of data provenance, i.e., \texttt{prospective provenance}, \texttt{retrospective provenance}, and \texttt{hybrid provenance}. The prospective provenance describes the general workflow by which data is produced, while the retrospective provenance consists of runtime observables, e.g., read and generated files during a script run (coarse-grained observables). Fine-grained provenance can be captured as well, e.g., changes to individual data records, program variables, parameter settings, etc. \texttt{Hybrid provenance} can be defined as a graph containing an alternation of process steps, situated in the context of the prospective workflow graph, and of the specific instances of data elements that have been generated and consumed by executions of those steps. The data elements can be instantiated to document the specific files used in a concrete workflow run. 
-
-YesWorkflow (YW) is a prospective provenance tool allowing users to easily recover high-level workflow models latent in scripts using simple user-annotations embedded as script comments\cite{yesworkflow}. List~\ref{fig:yw_matlab_tags} shows a code snippet from a MATLAB script with YW annotations. The @begin and @end tags are used to mark code blocks (i.e., processing steps in the YW model); @in and @out tags are used to define the dataflow between blocks; the @uri template (which is paired with an @in tag) is used to define a where the data file is located. Note that @uri templates define a metadata pattern via so-called template variables (here: ${start\_year}$, ${end\_year}$, and ${month}$). In this way, the script author can document the folder structure and file-naming conventions used by the script. List~\ref{fig:yw_R_tags} shows a YW annotation block in a R script. \textcolor{dkgreen}{The optional @param tag is used to specify the input and output parameters.} 
 
 \begin{lstlisting} [caption={YW annotation block in C3C4 Matlab script},label={fig:yw_matlab_tags}, language=Matlab] 
 %% Load input: long-term monthly mean precipitation data
@@ -137,6 +135,8 @@ for m=1:12
 end
 % @END fetch_monthly_mean_precipitation_data
 \end{lstlisting}
+
+YesWorkflow (YW) is a prospective provenance tool allowing users to easily recover high-level workflow models latent in scripts using simple user-annotations embedded as script comments\cite{yesworkflow}. List~\ref{fig:yw_matlab_tags} shows a code snippet from a MATLAB script with YW annotations. The @begin and @end tags are used to mark code blocks (i.e., processing steps in the YW model); @in and @out tags are used to define the dataflow between blocks; the @uri template (which is paired with an @in tag) is used to define a where the data file is located. Note that @uri templates define a metadata pattern via so-called template variables (here: ${start\_year}$, ${end\_year}$, and ${month}$). In this way, the script author can document the folder structure and file-naming conventions used by the script. List~\ref{fig:yw_R_tags} shows a YW annotation block \textcolor{dkgreen}{modelling a dataflow for \texttt{lsp\_status\_file} } in a R script. \textcolor{dkgreen}{The optional @param tag is used to specify the input and output parameters.} 
 
 %-------------------------------------------------------------
 \begin{lstlisting} [caption={YW annotation block in one OHIBC R script},label={fig:yw_R_tags}, language=R] 
@@ -161,7 +161,7 @@ write.csv(status_df, status_file)
 
 A scientific workflow script can run inside of RunManager by invoking the \texttt{record} function. The RunManager can automatically capture \textcolor{dkgreen}{file-level} retrospective provenance \textcolor{dkgreen}{by overloading and thus intercepting} file I/O operations. \textcolor{dkgreen}{The automated approach is efficient and useful for scientists.} RunManagers support the following APIs: \texttt{record},  \texttt{startRecord}, \texttt{endRecord}, \texttt{listRuns}, \texttt{deleteRuns}, \texttt{viewRun(s)}, \texttt{traceRuns} for R, \texttt{plotRuns} for R and \texttt{publishRun} in order to capture, search, archive, visualize, and publish a script run. \textcolor{dkgreen}{Then, the captured provenance information is saved to local database}. \textcolor{dkgreen}{The database tables include:} \texttt{execution metadata}, \texttt{file metadata}, \texttt{tag}, \texttt{module dependencies} for MATLAB and \texttt{provenance relationships} for R. \textcolor{dkgreen}{In addition, the provenance database} can be exported as \textcolor{dkgreen}{Prolog} facts. Retrospective provenance graphs can be rendered from the exported \textcolor{dkgreen}{Prolog} facts. \textcolor{dkgreen}{With YesWorkflow and RunManager, scientists can model, design, execute, debug, re-configure and re-run their analysis and visualization pipelines. Provenance is useful for a scientist to interpret their workflow results and for other scientists to establish trust in the experimental result~\cite{Barga2008}.}
 
-For example, a multi\_scripts\_multi\_runs provenance sub-graph can be produced by executing a Prolog query \footnote{\label{query1}\url{https://github.com/yesworkflow-org/yw-idcc-17/blob/master/OHIBC\_Howe\_Sound\_project/multi\_runs\_retrospective\_provenance\_queries/queries/render\_rm\_graph\_upstream\_of\_file\_q1\_sha256.sh}} which consists of four Prolog queries using the exported provenance facts. A example set of logical rules are highlighted in List~\ref{logic_rule_multi_prov}. The joining operation is based on file content (hash code). For the recursive rules \texttt{rm\_file\_downstream} computes all upstream files for the given file \texttt{Sha256\_2}. It has two base cases: one is the file object is itself downstream file object and the other is immediate derived relationship.  
+For example, a multi\_scripts\_multi\_runs provenance sub-graph can be produced by executing a Prolog query \footnote{\label{query1}\url{https://github.com/yesworkflow-org/yw-idcc-17/blob/master/OHIBC\_Howe\_Sound\_project/multi\_runs\_retrospective\_provenance\_queries/queries/render\_rm\_graph\_upstream\_of\_file\_q1\_sha256.sh}} which consists of four Prolog queries using the exported \textcolor{dkgreen}{Prolog} facts. A example set of logical rules are highlighted in List~\ref{logic_rule_multi_prov}. The joining operation is based on file content (hash code). For the recursive rules \texttt{rm\_file\_downstream} computes all upstream files for the given file \texttt{Sha256\_2}. It has two base cases: one is the file object is itself downstream file object and the other is immediate derived relationship.  
 
 \begin{lstlisting}  [caption={Prolog rules for multiple scripts multiple runs provenance},label={logic_rule_multi_prov}, language=bash] 
 :- table rm_file_immediately_downstream/2.
@@ -229,7 +229,7 @@ RunManager can show the prospective provenance and retrospective provenance as g
 RunManager can review the overview graph for all script runs because RunManager have recorded the execution history for the OHIBC example. Hence, using R RunManager provenance database, the plotRun() API gives us an overview for the OHIBC Howe Sound workflow example shown in Figure~\ref{fig:hs_trace_graph}. Alternatively, using exported Prolog facts from the provenance database, we can use prolog queries to render a complete multi\_scripts\_multi\_runs graph. With exported Prolog facts, we can use query\_based approach to do provenance dependency analysis which will be explained in the next section.
 
 \begin{figure}
-  \includegraphics[height=3.2in, width=0.9\columnwidth]{figures/trace}
+  \includegraphics[width=0.9\columnwidth]{figures/trace}
   \caption{Complete retrospective provenance graph for the OHI Howe Sound workflow example plotted by the API \texttt{plotRun()} in DataONE R RunManager}
   \label{fig:hs_trace_graph}
 \end{figure}
@@ -243,21 +243,12 @@ The second category provenance query is \texttt{hybrid provenance query}. In a h
 The third category provenance query is \texttt{multi\_scripts\_multi\_runs provenance query}. RunManager retrospective provenance queries refer to the runtime retrospective provenance obtained from executing multiple scripts, using RunManager. Since the scripts in a project are usually logically connected through sharing some of their inputs and outputs, the corresponding provenance traces are also connected through shared files. Figure~\ref{fig:hs_trace_graph} shows one complete graph for the OHIBC workflow example using the R provenance relational database and Figure~\ref{fig:upstream_ohibc} shows a upstream retrospective provenance subgraph that is relevant to ``\texttt{lsp\_trend.csv}" output using exported facts. The \texttt{multi\_scripts\_multi\_runs} query can be found at \footnote{\label{multi-runs-query}\url{https://github.com/yesworkflow-org/yw-idcc-17/tree/master/OHIBC\_Howe\_Sound\_project/multi\_runs\_retrospective\_provenance\_queries/queries}}. 
 
 \begin{figure}
-  \includegraphics[width=\columnwidth, height=3.5in]{figures/OHI_upstream_of_lsp_trend_sha256}
+  \includegraphics[height=2in,width=\columnwidth, height=3.5in]{figures/OHI_upstream_of_lsp_trend_sha256}
   \caption{Upstream subgraph that is relevant to ``lsp\_trend.csv" output for multi\_scripts\_multi\_runs retrospective provenance for the OHIBC Howe Sound example }
   \label{fig:upstream_ohibc}
 \end{figure}
 
 The second example script (in MATLAB) produces Carbon 3/Carbon 4 (C3/C4) soil maps for North America using average rain and air temperature monthly data from year 2000 to 2010. There are two versions for C3C4 example. In the version 1, there is one C3C4 example. The captured provenance and query results for C3C4 version is available at \footnote{\label{C3C4-v1}\url{https://github.com/yesworkflow-org/yw-idcc-17/tree/master/examples/C3C4/results}}. In order to simulate real-life workflow, we create a version 2 C3/C4 example by splitting one script to three phases: \texttt{preparing\_step}, \texttt{examining\_pixels\_for\_grass} and \texttt{generating\_final\_results}. After \texttt{preparing\_step}, a user can run the second script \texttt{examine\_pixels\_for\_grass} for multiple times with different parameters, then writes to the output files in \texttt{generating\_final\_results}. We present such retrospective provenance graphs based on file content (hash code) in Figure~\ref{fig:c3c4v2_filepath} which records a holistic run of the three scripts and the second script was run with two different parameter values (i.e., 2.5 and 5) twice. From Figure~\ref{fig:c3c4v2_filepath}, we find that the second script that ran twice produced two versions of files at the same file location.
-
-\begin{figure}
-  \centering
-  %\subfloat[label1]{{\includegraphics[height=4in, width=\columnwidth]{figures/C3C4v2_upstream_of_Grass_filePath} }} 
-   \subfloat{{\includegraphics[height=4in, width=\columnwidth]{figures/C3C4v2_upstream_of_Grass_sha256} }}
-   
-  \caption{Upstream retrospective provenance subgraph (longitudinal view) that is relevant to one output ``\texttt{SYNMAP\_PRESENTVEG\_Grass\_Fraction\_NA\_v2.0.nc}" for C3C4 version 2 example. In the diagram, an orange yellow box represents a data file and a black box represents an execution (a run). }
-  \label{fig:c3c4v2_filepath}
-\end{figure}
 
 
 \paragraph{\textit{\bf Reproducibility}}
@@ -270,9 +261,19 @@ Provenance is a useful component of the software development cycle, either to be
 
 %Many provenance tools have been developed to capture, store, query and visualize the provenance produced by scripts and runs of scripts. But there is not enough investigation on what kind of provenance queries can be answered from the provenance information at prospective and retrospective provenance levels. Our research on prospective, hybrid and retrospective provenance queries allow researchers to use simple queries and a subset of advanced queries to query across YW model and various retrospective provenance sources to produce interesting provenance artifacts. 
       
-
-
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{sigproc} 
+
+\appendix
+\section{Example retrospective provenance subgraph}
+
+\begin{figure}
+  \centering
+  %\subfloat[label1]{{\includegraphics[height=4in, width=\columnwidth]{figures/C3C4v2_upstream_of_Grass_filePath} }} 
+   \subfloat{{\includegraphics[height=4in, width=\columnwidth]{figures/C3C4v2_upstream_of_Grass_sha256} }}
+   
+  \caption{Upstream retrospective provenance subgraph (longitudinal view) that is relevant to one output ``\texttt{SYNMAP\_PRESENTVEG\_Grass\_Fraction\_NA\_v2.0.nc}" for C3C4 version 2 example. In the diagram, an orange yellow box represents a data file and a black box represents an execution (a run). }
+  \label{fig:c3c4v2_filepath}
+\end{figure}
 
 \end{document}

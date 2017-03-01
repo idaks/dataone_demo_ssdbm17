@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2017 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2017 10:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -983,8 +983,8 @@ Overfull \hbox (13.0082pt too wide) in paragraph at lines 118--119
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 122.
-LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 132.
+nput line 120.
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 130.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
@@ -995,14 +995,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (11.25241pt too wide) in paragraph at lines 132--133
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Underfull \vbox (badness 1348) has occurred while \output is active []
-
-
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1012,11 +1004,9 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3679) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 164.
- [2.2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 164--164
 [][][][][]$\OT1/LinuxLibertineT-TLF/m/n/7 (+20) hŠps : / / github . com / yeswo
 rkƒow-[]org / yw-[]idcc-[]17 / blob / master / OHIBC[]
@@ -1028,18 +1018,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--164
 pective[]provenance[]queries / queries /
  []
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 165.
+[2.2] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (7.25241pt too wide) in paragraph at lines 195--196
-[][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-<figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf, id=116, 9
+<figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf, id=125, 9
 80.66376pt x 910.40125pt>
 File: figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf Graph
 ic file (type pdf)
@@ -1051,7 +1038,7 @@ graph_uri.pdf used on input line 222.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 7.0pt on input line 222.
 
-<figures/wf_recon_complete_graph_all_observables.pdf, id=117, 980.66376pt x 888
+<figures/wf_recon_complete_graph_all_observables.pdf, id=126, 980.66376pt x 888
 .31876pt>
 File: figures/wf_recon_complete_graph_all_observables.pdf Graphic file (type pd
 f)
@@ -1059,42 +1046,22 @@ f)
 Package pdftex.def Info: figures/wf_recon_complete_graph_all_observables.pdf us
 ed on input line 223.
 (pdftex.def)             Requested size: 241.14009pt x 238.48026pt.
-LaTeX Font Info:    Font shape `OT1/zi4/bx/n' in size <9> not available
+LaTeX Font Info:    Font shape `OT1/zi4/bx/n' in size <8> not available
 (Font)              Font shape `OT1/zi4/b/n' tried instead on input line 224.
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-[]\OT1/LinuxLibertineT-TLF/b/n/9 Figure 1: |Com-plete YW prospec-tive and hy-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\OT1/LinuxLibertineT-TLF/b/n/9 brid prove-nance graphs for the last step script
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\OT1/zi4/b/n/9 estimate[]status[]and[]trend[]by[]year.R\OT1/LinuxLibertineT-TLF
-/b/n/9 . The green box
- []
-
-
-Underfull \vbox (badness 1990) has occurred while \output is active []
-
- [3.3]
-<figures/trace.pdf, id=170, 1070.71025pt x 575.14874pt>
+<figures/trace.pdf, id=128, 1070.71025pt x 575.14874pt>
 File: figures/trace.pdf Graphic file (type pdf)
 
 <use figures/trace.pdf>
 Package pdftex.def Info: figures/trace.pdf used on input line 232.
-(pdftex.def)             Requested size: 217.03003pt x 231.25774pt.
+(pdftex.def)             Requested size: 217.03127pt x 116.58107pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 241--241
 [][][][][]$\OT1/LinuxLibertineT-TLF/m/n/7 (+20) hŠps : / / github . com / yeswo
 rkƒow-[]org / yw-[]idcc-[]17 / tree / master / OHIBC[]Howe[]
  []
 
-
+[3.3]
 Underfull \hbox (badness 10000) in paragraph at lines 243--243
 [][][][][]$\OT1/LinuxLibertineT-TLF/m/n/7 (+20) hŠps : / / github . com / yeswo
 rkƒow-[]org / yw-[]idcc-[]17 / tree / master / OHIBC[]Howe[]
@@ -1107,7 +1074,7 @@ s \OT1/zi4/m/n/9 multi[]scripts[]multi[]runs
  []
 
 
-<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=179, 2637.855pt x 1040.88875p
+<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=186, 2637.855pt x 1040.88875p
 t>
 File: figures/OHI_upstream_of_lsp_trend_sha256.pdf Graphic file (type pdf)
  <use figures/OHI_upstream_of_lsp_trend_sha256.pdf>
@@ -1115,63 +1082,13 @@ Package pdftex.def Info: figures/OHI_upstream_of_lsp_trend_sha256.pdf used on i
 nput line 246.
 (pdftex.def)             Requested size: 241.13998pt x 252.94728pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
-[]\OT1/LinuxLibertineT-TLF/b/n/9 Figure 3: |Up-stream sub-graph that is rel-e-v
-ant to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
-\OT1/LinuxLibertineT-TLF/b/n/9 ``lsp[]trend.csv" out-put for multi[]scripts[]mu
-lti[]runs ret-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 251--251
 [][][][][]$\OT1/LinuxLibertineT-TLF/m/n/7 (+20) hŠps : / / github . com / yeswo
 rkƒow-[]org / yw-[]idcc-[]17 / tree / master / examples / C3C4 /
  []
 
 [4.4 <./figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf> <.
-/figures/wf_recon_complete_graph_all_observables.pdf>]
-<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=237, 3176.86874pt x 1521.685pt
->
-File: figures/C3C4v2_upstream_of_Grass_sha256.pdf Graphic file (type pdf)
- <use figures/C3C4v2_upstream_of_Grass_sha256.pdf>
-Package pdftex.def Info: figures/C3C4v2_upstream_of_Grass_sha256.pdf used on in
-put line 256.
-(pdftex.def)             Requested size: 241.1149pt x 289.07672pt.
-
-Overfull \hbox (2.2174pt too wide) in paragraph at lines 256--257
- [][] 
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 258--258
-[]\OT1/LinuxLibertineT-TLF/b/n/9 Figure 4: |Up-stream ret-ro-spec-tive prove-na
-nce sub-graph
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\OT1/LinuxLibertineT-TLF/b/n/9 (lon-gi-tu-di-nal view) that is rel-e-vant to on
-e out-put
- []
-
-
-Underfull \hbox (badness 5696) in paragraph at lines 258--258
-\OT1/LinuxLibertineT-TLF/b/n/9 ``\OT1/zi4/b/n/9 SYNMAP[]PRESENTVEG[]Grass[]Frac
-tion[]NA[]v2.0.nc\OT1/LinuxLibertineT-TLF/b/n/9 " for C3C4
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 258--258
-\OT1/LinuxLibertineT-TLF/b/n/9 ver-sion 2 ex-am-ple. In the di-a-gram, an or-an
-ge yel-low
- []
-
-[5.5 <./figures/trace.pdf> <./figures/OHI_upstream_of_lsp_trend_sha256.pdf> <./
-figures/C3C4v2_upstream_of_Grass_sha256.pdf>]
+/figures/wf_recon_complete_graph_all_observables.pdf> <./figures/trace.pdf>]
 (./d1_prov_demo_ssdbm_2017_2nd_version.bbl
 Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
 Missing character: There is no ­ in font LinLibertineT-tlf-ot1!
@@ -1179,32 +1096,62 @@ Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
 Missing character: There is no ­ in font LinLibertineT-tlf-ot1!
 Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
 Missing character: There is no ¤ in font LinLibertineT-tlf-ot1!
-) [6.6
+)
+<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=256, 3176.86874pt x 1521.685pt
+>
+File: figures/C3C4v2_upstream_of_Grass_sha256.pdf Graphic file (type pdf)
+ <use figures/C3C4v2_upstream_of_Grass_sha256.pdf>
+Package pdftex.def Info: figures/C3C4v2_upstream_of_Grass_sha256.pdf used on in
+put line 273.
+(pdftex.def)             Requested size: 241.1149pt x 289.07672pt.
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+Overfull \hbox (2.2174pt too wide) in paragraph at lines 273--274
+ [][] 
+ []
 
-(./d1_prov_demo_ssdbm_2017_2nd_version.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+[]\OT1/LinuxLibertineT-TLF/b/n/8 Figure 4: |Up-stream ret-ro-spec-tive prove-na
+nce sub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\OT1/LinuxLibertineT-TLF/b/n/8 graph (lon-gi-tu-di-nal view) that is rel-e-vant
+ to one out-put
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\OT1/LinuxLibertineT-TLF/b/n/8 ``\OT1/zi4/b/n/8 SYNMAP[]PRESENTVEG[]Grass[]Frac
+tion[]NA[]v2.0.nc\OT1/LinuxLibertineT-TLF/b/n/8 " for C3C4 ver-
+ []
+
+[5.5 <./figures/OHI_upstream_of_lsp_trend_sha256.pdf>] [6.6
+
+ <./figures/C3C4v2_upstream_of_Grass_sha256.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
+ (./d1_prov_demo_ssdbm_2017_2nd_version.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
 Package rerunfilecheck Info: File `d1_prov_demo_ssdbm_2017_2nd_version.out' has
  not changed.
-(rerunfilecheck)             Checksum: E687DA2767875D471316D58BFCE22969;977.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+(rerunfilecheck)             Checksum: BA4FE79F6323061BB05BF8701FF6DABF;1024.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
  ) 
 Here is how much of TeX's memory you used:
- 19801 strings out of 493014
- 295122 string characters out of 6133351
- 501430 words of memory out of 5000000
- 22541 multiletter control sequences out of 15000+600000
- 74079 words of font info for 258 fonts, out of 8000000 for 9000
+ 19804 strings out of 493014
+ 295184 string characters out of 6133351
+ 506906 words of memory out of 5000000
+ 22540 multiletter control sequences out of 15000+600000
+ 74150 words of font info for 259 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,14n,94p,1571b,2066s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,94p,1571b,1870s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/us
-r/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/201
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/us
+r/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive
+/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/local/texlive/201
 6/texmf-dist/fonts/enc/dvips/libertine/lbtn_c6xmqr.enc}{/usr/local/texlive/2016
 /texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2016/
 texmf-dist/fonts/enc/dvips/libertine/lbtn_xogrpz.enc}{/usr/local/texlive/2016/t
@@ -1219,11 +1166,11 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 580193 byte
+Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 580394 byte
 s).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 110 named destinations out of 1000 (max. 500000)
- 39498 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 38994 words of extra memory for PDF output out of 42996 (max. 10000000)
 
