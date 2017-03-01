@@ -38,6 +38,32 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Ajila}{Ajila}{1995}]%
+        {Ajila:1995}
+\bibfield{author}{\bibinfo{person}{Samuel Ajila}.}
+  \bibinfo{year}{1995}\natexlab{}.
+\newblock \showarticletitle{Software Maintenance: An Approach to Impact
+  Analysis of Objects Change}.
+\newblock \bibinfo{journal}{{\em Softw. Pract. Exper.\/}} \bibinfo{volume}{25},
+  \bibinfo{number}{10} (\bibinfo{date}{Oct.} \bibinfo{year}{1995}),
+  \bibinfo{pages}{1155--1181}.
+\newblock
+\showISSN{0038-0644}
+\showDOI{%
+\url{http://dx.doi.org/10.1002/spe.4380251006}}
+
+
+\bibitem[\protect\citeauthoryear{Arnold}{Arnold}{1996}]%
+        {Arnold:1996}
+\bibfield{author}{\bibinfo{person}{Robert~S. Arnold}.}
+  \bibinfo{year}{1996}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Software Change Impact Analysis}}.
+\newblock \bibinfo{publisher}{IEEE Computer Society Press},
+  \bibinfo{address}{Los Alamitos, CA, USA}.
+\newblock
+\showISBNx{0818673842}
+
+
 \bibitem[\protect\citeauthoryear{Barga and Digiampietri}{Barga and
   Digiampietri}{2008}]%
         {Barga2008}

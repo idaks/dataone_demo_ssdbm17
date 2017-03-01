@@ -5,54 +5,52 @@ The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: sigproc.bib
-A bad cross reference---entry "runmanager"
-refers to entry "conf/ipaw/2016", which doesn't exist
-Warning--I didn't find a database entry for "conf/ipaw/2016"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--require articleno with numpages field in Ajila:1995
 Warning--empty address in runmanager
 Warning--empty publisher in reprozip
 Warning--empty address in reprozip
 Warning--page numbers missing in both pages and numpages fields in rdatatracker
 Warning--empty address in noworkflow
-You've used 9 entries,
+You've used 11 entries,
             5580 wiz_defined-function locations,
-            1357 strings with 19167 characters,
-and the built_in function-call counts, 15035 in all, are:
-= -- 1414
-> -- 1438
+            1378 strings with 19538 characters,
+and the built_in function-call counts, 16786 in all, are:
+= -- 1668
+> -- 1478
 < -- 0
-+ -- 500
-- -- 518
-* -- 1672
-:= -- 2181
-add.period$ -- 46
-call.type$ -- 9
-change.case$ -- 158
-chr.to.int$ -- 9
-cite$ -- 14
-duplicate$ -- 720
-empty$ -- 523
-format.name$ -- 542
-if$ -- 3126
++ -- 508
+- -- 534
+* -- 1781
+:= -- 2366
+add.period$ -- 57
+call.type$ -- 11
+change.case$ -- 168
+chr.to.int$ -- 11
+cite$ -- 17
+duplicate$ -- 869
+empty$ -- 632
+format.name$ -- 558
+if$ -- 3560
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 29
-newline$ -- 117
-num.names$ -- 74
-pop$ -- 369
+missing$ -- 35
+newline$ -- 137
+num.names$ -- 90
+pop$ -- 414
 preamble$ -- 1
-purify$ -- 203
+purify$ -- 223
 quote$ -- 0
-skip$ -- 211
+skip$ -- 258
 stack$ -- 0
-substring$ -- 673
-swap$ -- 73
+substring$ -- 823
+swap$ -- 91
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
-warning$ -- 5
-while$ -- 61
+type$ -- 142
+warning$ -- 6
+while$ -- 80
 width$ -- 0
-write$ -- 204
-(There was 1 error message)
+write$ -- 243
+(There were 6 warnings)
