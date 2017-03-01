@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2017 10:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2017 13:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1026,7 +1026,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-<figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf, id=125, 9
+<figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf, id=127, 9
 80.66376pt x 910.40125pt>
 File: figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf Graph
 ic file (type pdf)
@@ -1038,7 +1038,7 @@ graph_uri.pdf used on input line 222.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 7.0pt on input line 222.
 
-<figures/wf_recon_complete_graph_all_observables.pdf, id=126, 980.66376pt x 888
+<figures/wf_recon_complete_graph_all_observables.pdf, id=128, 980.66376pt x 888
 .31876pt>
 File: figures/wf_recon_complete_graph_all_observables.pdf Graphic file (type pd
 f)
@@ -1049,7 +1049,7 @@ ed on input line 223.
 LaTeX Font Info:    Font shape `OT1/zi4/bx/n' in size <8> not available
 (Font)              Font shape `OT1/zi4/b/n' tried instead on input line 224.
 
-<figures/trace.pdf, id=128, 1070.71025pt x 575.14874pt>
+<figures/trace.pdf, id=130, 1070.71025pt x 575.14874pt>
 File: figures/trace.pdf Graphic file (type pdf)
 
 <use figures/trace.pdf>
@@ -1074,7 +1074,7 @@ s \OT1/zi4/m/n/9 multi[]scripts[]multi[]runs
  []
 
 
-<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=186, 2637.855pt x 1040.88875p
+<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=187, 2637.855pt x 1040.88875p
 t>
 File: figures/OHI_upstream_of_lsp_trend_sha256.pdf Graphic file (type pdf)
  <use figures/OHI_upstream_of_lsp_trend_sha256.pdf>
@@ -1097,7 +1097,7 @@ Missing character: There is no ­ in font LinLibertineT-tlf-ot1!
 Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
 Missing character: There is no ¤ in font LinLibertineT-tlf-ot1!
 )
-<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=256, 3176.86874pt x 1521.685pt
+<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=257, 3176.86874pt x 1521.685pt
 >
 File: figures/C3C4v2_upstream_of_Grass_sha256.pdf Graphic file (type pdf)
  <use figures/C3C4v2_upstream_of_Grass_sha256.pdf>
@@ -1143,7 +1143,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
 Here is how much of TeX's memory you used:
  19804 strings out of 493014
  295184 string characters out of 6133351
- 506906 words of memory out of 5000000
+ 506993 words of memory out of 5000000
  22540 multiletter control sequences out of 15000+600000
  74150 words of font info for 259 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -1166,11 +1166,11 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 580394 byte
+Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 580440 byte
 s).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
+ 369 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
  111 named destinations out of 1000 (max. 500000)
  38994 words of extra memory for PDF output out of 42996 (max. 10000000)
 
