@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2017 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2017 13:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,12 +961,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `zi4' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Overfull \hbox (9.34735pt too wide) in paragraph at lines 84--85
-[]\OT1/LinuxLibertineT-TLF/m/n/9 (-20) DataONE Run-Man-ager pro-vides two im-pl
-e-men-ta-tions: the \OT1/zi4/m/n/9 recordr
- []
-
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 93.
 
@@ -1135,26 +1129,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
  (./d1_prov_demo_ssdbm_2017_2nd_version.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
-
-
-Package rerunfilecheck Warning: File `d1_prov_demo_ssdbm_2017_2nd_version.out' 
-has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `d1_prov_demo_ssdbm_2017_2nd_version
-.out':
-(rerunfilecheck)             Before: A477CBC388E092CDE6E565FC5AC1CF7F;1014
-(rerunfilecheck)             After:  3D937152139A42839C571FE883C3E142;996.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `d1_prov_demo_ssdbm_2017_2nd_version.out' has
+ not changed.
+(rerunfilecheck)             Checksum: 3D937152139A42839C571FE883C3E142;996.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
  ) 
 Here is how much of TeX's memory you used:
  19807 strings out of 493014
  295259 string characters out of 6133351
- 506949 words of memory out of 5000000
+ 506945 words of memory out of 5000000
  22540 multiletter control sequences out of 15000+600000
  74423 words of font info for 261 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -1177,7 +1160,7 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 580425 byte
+Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 580417 byte
 s).
 PDF statistics:
  369 PDF objects out of 1000 (max. 8388607)
