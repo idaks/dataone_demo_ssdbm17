@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2017 00:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2017 10:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1179,7 +1179,9 @@ Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
 Missing character: There is no ­ in font LinLibertineT-tlf-ot1!
 Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
 Missing character: There is no ¤ in font LinLibertineT-tlf-ot1!
-) [6.6]
+) [6.6
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
 
@@ -1192,11 +1194,11 @@ Package rerunfilecheck Info: File `d1_prov_demo_ssdbm_2017_2nd_version.out' has
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 19807 strings out of 493014
- 295269 string characters out of 6133351
+ 19801 strings out of 493014
+ 295122 string characters out of 6133351
  501430 words of memory out of 5000000
  22541 multiletter control sequences out of 15000+600000
- 74625 words of font info for 262 fonts, out of 8000000 for 9000
+ 74079 words of font info for 258 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,14n,94p,1571b,2066s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}
@@ -1217,7 +1219,7 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 580627 byte
+Output written on d1_prov_demo_ssdbm_2017_2nd_version.pdf (6 pages, 580193 byte
 s).
 PDF statistics:
  364 PDF objects out of 1000 (max. 8388607)
