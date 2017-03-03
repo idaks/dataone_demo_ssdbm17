@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2017 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAR 2017 14:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -986,6 +986,9 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
+Underfull \vbox (badness 3098) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 131--131
 [][][][][]$\OT1/LinuxLibertineT-TLF/m/n/7 (+20) hŠps : / / github . com / yeswo
 rkƒow-[]org / yw-[]idcc-[]17 / blob / master / OHIBC[]
@@ -997,16 +1000,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--131
 pective[]provenance[]queries / queries /
  []
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 133.
- [2.2]
-<figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf, id=131, 9
+(Font)              scaled to size 9.0pt on input line 132.
+[2.2] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+<figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf, id=127, 9
 80.66376pt x 910.40125pt>
 File: figures/estimate_status_and_trend_by_year_complete_wf_graph_uri.pdf Graph
 ic file (type pdf)
@@ -1018,7 +1020,7 @@ graph_uri.pdf used on input line 189.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 7.0pt on input line 189.
 
-<figures/wf_recon_complete_graph_all_observables.pdf, id=132, 980.66376pt x 888
+<figures/wf_recon_complete_graph_all_observables.pdf, id=128, 980.66376pt x 888
 .31876pt>
 File: figures/wf_recon_complete_graph_all_observables.pdf Graphic file (type pd
 f)
@@ -1029,7 +1031,7 @@ ed on input line 190.
 LaTeX Font Info:    Font shape `OT1/zi4/bx/n' in size <8> not available
 (Font)              Font shape `OT1/zi4/b/n' tried instead on input line 191.
 
-<figures/trace.pdf, id=134, 1070.71025pt x 575.14874pt>
+<figures/trace.pdf, id=130, 1070.71025pt x 575.14874pt>
 File: figures/trace.pdf Graphic file (type pdf)
 
 <use figures/trace.pdf>
@@ -1048,13 +1050,13 @@ rkƒow-[]org / yw-[]idcc-[]17 / tree / master / OHIBC[]Howe[]
  []
 
 
-Overfull \hbox (12.78633pt too wide) in paragraph at lines 210--211
-[]\OT1/LinuxLibertineT-TLF/m/n/9 (-20) The third cat-e-gory prove-nance query i
-s \OT1/zi4/m/n/9 multi[]scripts[]multi[]runs
+Overfull \hbox (21.46611pt too wide) in paragraph at lines 210--211
+[]\OT1/LinuxLibertineT-TLF/m/n/9 (-20) The third cat-e-gory []of[] prove-nance 
+query is \OT1/zi4/m/n/9 multi[]scripts[]multi[]runs
  []
 
 
-<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=191, 2637.855pt x 1040.88875p
+<figures/OHI_upstream_of_lsp_trend_sha256.pdf, id=187, 2637.855pt x 1040.88875p
 t>
 File: figures/OHI_upstream_of_lsp_trend_sha256.pdf Graphic file (type pdf)
  <use figures/OHI_upstream_of_lsp_trend_sha256.pdf>
@@ -1077,7 +1079,7 @@ Missing character: There is no ­ in font LinLibertineT-tlf-ot1!
 Missing character: There is no Ã in font LinLibertineT-tlf-ot1!
 Missing character: There is no ¤ in font LinLibertineT-tlf-ot1!
 )
-<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=262, 3176.86874pt x 1521.685pt
+<figures/C3C4v2_upstream_of_Grass_sha256.pdf, id=256, 3176.86874pt x 1521.685pt
 >
 File: figures/C3C4v2_upstream_of_Grass_sha256.pdf Graphic file (type pdf)
  <use figures/C3C4v2_upstream_of_Grass_sha256.pdf>
@@ -1117,17 +1119,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `d1_prov_demo_ssdbm_2017_submit.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 3D937152139A42839C571FE883C3E142;996.
+(rerunfilecheck)             Checksum: 354998A5D6336B13860E0E7CB0265C51;1148.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 19820 strings out of 493014
- 295464 string characters out of 6133351
- 506625 words of memory out of 5000000
- 22545 multiletter control sequences out of 15000+600000
- 74969 words of font info for 265 fonts, out of 8000000 for 9000
+ 19793 strings out of 493014
+ 294840 string characters out of 6133351
+ 506572 words of memory out of 5000000
+ 22538 multiletter control sequences out of 15000+600000
+ 73227 words of font info for 253 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,14n,94p,1377b,2099s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,94p,1377b,1870s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/us
 r/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive
@@ -1146,10 +1148,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_submit.pdf (6 pages, 579423 bytes).
+Output written on d1_prov_demo_ssdbm_2017_submit.pdf (6 pages, 574889 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
- 113 named destinations out of 1000 (max. 500000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
  38994 words of extra memory for PDF output out of 42996 (max. 10000000)
 

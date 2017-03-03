@@ -38,32 +38,6 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{Ajila}{Ajila}{1995}]%
-        {Ajila:1995}
-\bibfield{author}{\bibinfo{person}{Samuel Ajila}.}
-  \bibinfo{year}{1995}\natexlab{}.
-\newblock \showarticletitle{Software Maintenance: An Approach to Impact
-  Analysis of Objects Change}.
-\newblock \bibinfo{journal}{{\em Softw. Pract. Exper.\/}} \bibinfo{volume}{25},
-  \bibinfo{number}{10} (\bibinfo{date}{Oct.} \bibinfo{year}{1995}),
-  \bibinfo{pages}{1155--1181}.
-\newblock
-\showISSN{0038-0644}
-\showDOI{%
-\url{http://dx.doi.org/10.1002/spe.4380251006}}
-
-
-\bibitem[\protect\citeauthoryear{Arnold}{Arnold}{1996}]%
-        {Arnold:1996}
-\bibfield{author}{\bibinfo{person}{Robert~S. Arnold}.}
-  \bibinfo{year}{1996}\natexlab{}.
-\newblock \bibinfo{booktitle}{{\em Software Change Impact Analysis}}.
-\newblock \bibinfo{publisher}{IEEE Computer Society Press},
-  \bibinfo{address}{Los Alamitos, CA, USA}.
-\newblock
-\showISBNx{0818673842}
-
-
 \bibitem[\protect\citeauthoryear{Barga and Digiampietri}{Barga and
   Digiampietri}{2008}]%
         {Barga2008}
@@ -112,41 +86,6 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Halpern, Longo, Hardy, McLeod, Samhouri,
-  Katona, Kleisner, Lester, Oleary, Ranelletti, Rosenberg, Scarborough, Selig,
-  Best, Brumbaugh, Chapin, Crowder, Daly, Doney, Elfes, Fogarty, Gaines,
-  Jacobsen, Karrer, Leslie, Neeley, Pauly, Polasky, Ris, {St Martin}, Stone,
-  {Rashid Sumaila}, and Zeller}{Halpern et~al\mbox{.}}{2012}]%
-        {ohibc}
-\bibfield{author}{\bibinfo{person}{{Benjamin S.} Halpern},
-  \bibinfo{person}{Catherine Longo}, \bibinfo{person}{Darren Hardy},
-  \bibinfo{person}{{Karen L.} McLeod}, \bibinfo{person}{{Jameal F.} Samhouri},
-  \bibinfo{person}{{Steven K.} Katona}, \bibinfo{person}{Kristin Kleisner},
-  \bibinfo{person}{{Sarah E.} Lester}, \bibinfo{person}{Jennifer Oleary},
-  \bibinfo{person}{Marla Ranelletti}, \bibinfo{person}{{Andrew A.} Rosenberg},
-  \bibinfo{person}{Courtney Scarborough}, \bibinfo{person}{{Elizabeth R.}
-  Selig}, \bibinfo{person}{{Benjamin D.} Best}, \bibinfo{person}{{Daniel R.}
-  Brumbaugh}, \bibinfo{person}{{F. Stuart} Chapin}, \bibinfo{person}{{Larry B.}
-  Crowder}, \bibinfo{person}{{Kendra L.} Daly}, \bibinfo{person}{{Scott C.}
-  Doney}, \bibinfo{person}{Cristiane Elfes}, \bibinfo{person}{{Michael J.}
-  Fogarty}, \bibinfo{person}{{Steven D.} Gaines}, \bibinfo{person}{{Kelsey I.}
-  Jacobsen}, \bibinfo{person}{{Leah Bunce} Karrer}, \bibinfo{person}{{Heather
-  M.} Leslie}, \bibinfo{person}{Elizabeth Neeley}, \bibinfo{person}{Daniel
-  Pauly}, \bibinfo{person}{Stephen Polasky}, \bibinfo{person}{Bud Ris},
-  \bibinfo{person}{Kevin {St Martin}}, \bibinfo{person}{{Gregory S.} Stone},
-  \bibinfo{person}{U. {Rashid Sumaila}}, {and} \bibinfo{person}{Dirk Zeller}.}
-  \bibinfo{year}{2012}\natexlab{}.
-\newblock \showarticletitle{An index to assess the health and benefits of the
-  global ocean}.
-\newblock \bibinfo{journal}{{\em Nature\/}} \bibinfo{volume}{488},
-  \bibinfo{number}{7413} (\bibinfo{date}{8} \bibinfo{year}{2012}),
-  \bibinfo{pages}{615--620}.
-\newblock
-\showISSN{0028-0836}
-\showDOI{%
-\url{http://dx.doi.org/10.1038/nature11397}}
-
-
 \bibitem[\protect\citeauthoryear{Huntzinger, Schwalm, Wei, Cook, Michalak,
   Schaefer, Jacobson, Arain, Ciais, Fisher, Hayes, Huang, Huang, Ito, Jain,
   Lei, Lu, Maignan, Mao, Parazoo, Peng, Peng, Poulter, Ricciuto, Tian, Shi,
@@ -170,6 +109,16 @@
   MsTMIP: Global 0.5-deg Terrestrial Biosphere Model Outputs (version 1) in
   Standard Format}}.
 \newblock   (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Index}{Index}{2015}]%
+        {ohibc}
+\bibfield{author}{\bibinfo{person}{Ocean~Health Index}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{ohiprep v2015.1: Preparation of data for global
+  scenarios of the Ocean Health Index, [date downloaded]}.
+\newblock   (\bibinfo{year}{2015}).
 \newblock
 
 

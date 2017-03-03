@@ -6,51 +6,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: sigproc.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--require articleno with numpages field in Ajila:1995
 Warning--empty address in runmanager
 Warning--empty publisher in reprozip
 Warning--empty address in reprozip
 Warning--page numbers missing in both pages and numpages fields in rdatatracker
 Warning--empty address in noworkflow
-You've used 11 entries,
+You've used 9 entries,
             5580 wiz_defined-function locations,
-            1378 strings with 19528 characters,
-and the built_in function-call counts, 16786 in all, are:
-= -- 1668
-> -- 1478
+            1350 strings with 18515 characters,
+and the built_in function-call counts, 12597 in all, are:
+= -- 1185
+> -- 1087
 < -- 0
-+ -- 508
-- -- 534
-* -- 1781
-:= -- 2366
-add.period$ -- 57
-call.type$ -- 11
-change.case$ -- 168
-chr.to.int$ -- 11
-cite$ -- 17
-duplicate$ -- 869
-empty$ -- 632
-format.name$ -- 558
-if$ -- 3560
++ -- 370
+- -- 394
+* -- 1319
+:= -- 1788
+add.period$ -- 46
+call.type$ -- 9
+change.case$ -- 126
+chr.to.int$ -- 9
+cite$ -- 14
+duplicate$ -- 686
+empty$ -- 501
+format.name$ -- 414
+if$ -- 2636
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 35
-newline$ -- 137
-num.names$ -- 90
-pop$ -- 414
+missing$ -- 25
+newline$ -- 114
+num.names$ -- 74
+pop$ -- 337
 preamble$ -- 1
-purify$ -- 223
+purify$ -- 171
 quote$ -- 0
-skip$ -- 258
+skip$ -- 198
 stack$ -- 0
-substring$ -- 823
-swap$ -- 91
+substring$ -- 615
+swap$ -- 65
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 142
-warning$ -- 6
-while$ -- 80
+type$ -- 120
+warning$ -- 5
+while$ -- 62
 width$ -- 0
-write$ -- 243
-(There were 6 warnings)
+write$ -- 201
+(There were 5 warnings)
