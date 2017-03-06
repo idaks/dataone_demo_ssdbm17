@@ -12,45 +12,45 @@ Warning--empty publisher in reprozip
 Warning--empty address in reprozip
 Warning--page numbers missing in both pages and numpages fields in rdatatracker
 Warning--empty address in noworkflow
-You've used 11 entries,
+You've used 12 entries,
             5580 wiz_defined-function locations,
-            1372 strings with 18900 characters,
-and the built_in function-call counts, 14348 in all, are:
-= -- 1439
-> -- 1127
+            1382 strings with 19347 characters,
+and the built_in function-call counts, 15975 in all, are:
+= -- 1685
+> -- 1201
 < -- 0
-+ -- 378
-- -- 410
-* -- 1428
-:= -- 1973
-add.period$ -- 57
-call.type$ -- 11
-change.case$ -- 136
-chr.to.int$ -- 11
-cite$ -- 17
-duplicate$ -- 835
-empty$ -- 610
-format.name$ -- 430
-if$ -- 3070
++ -- 402
+- -- 434
+* -- 1537
+:= -- 2128
+add.period$ -- 63
+call.type$ -- 12
+change.case$ -- 146
+chr.to.int$ -- 12
+cite$ -- 18
+duplicate$ -- 958
+empty$ -- 680
+format.name$ -- 458
+if$ -- 3496
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 31
-newline$ -- 134
-num.names$ -- 90
-pop$ -- 382
+missing$ -- 35
+newline$ -- 146
+num.names$ -- 98
+pop$ -- 410
 preamble$ -- 1
-purify$ -- 191
+purify$ -- 206
 quote$ -- 0
-skip$ -- 245
+skip$ -- 317
 stack$ -- 0
-substring$ -- 765
-swap$ -- 83
+substring$ -- 874
+swap$ -- 124
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 142
+type$ -- 156
 warning$ -- 6
-while$ -- 81
+while$ -- 86
 width$ -- 0
-write$ -- 240
+write$ -- 261
 (There were 6 warnings)

@@ -202,6 +202,26 @@ Issue 1.
 \url{http://dx.doi.org/10.1007/978-3-319-16462-5_6}}
 
 
+\bibitem[\protect\citeauthoryear{Santana-Perez, da~Silva, Rynge, Deelman,
+  Perez-Hernandez, and Corcho}{Santana-Perez et~al\mbox{.}}{2017}]%
+        {santanaperez-fgcs-2016}
+\bibfield{author}{\bibinfo{person}{Idafen Santana-Perez},
+  \bibinfo{person}{Rafael~Ferreira da Silva}, \bibinfo{person}{Mats Rynge},
+  \bibinfo{person}{Ewa Deelman}, \bibinfo{person}{Maria~S. Perez-Hernandez},
+  {and} \bibinfo{person}{Oscar Corcho}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Reproducibility of Execution Environments in
+  Computational Science Using Semantics and Clouds}.
+\newblock \bibinfo{journal}{{\em Future Generation Computer Systems\/}}
+  \bibinfo{volume}{67} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{354{\textendash}367}.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1016/j.future.2015.12.017}}
+\newblock
+\shownote{Funding Acknowledgements: NSF ACI SI2-SSI 1148515, NSF FutureGrid
+  0910812.}
+
+
 \bibitem[\protect\citeauthoryear{Wei, Liu, Huntzinger, Michalak, Viovy, Post,
   Schwalm, Schaefer, Jacobson, Lu, Tian, Ricciuto, Cook, Mao, and Shi}{Wei
   et~al\mbox{.}}{2014}]%
