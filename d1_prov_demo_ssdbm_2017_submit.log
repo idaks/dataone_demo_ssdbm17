@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 MAR 2017 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 MAR 2017 20:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1123,11 +1123,11 @@ changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 19807 strings out of 493014
- 295144 string characters out of 6133351
+ 19813 strings out of 493014
+ 295297 string characters out of 6133351
  506809 words of memory out of 5000000
  22548 multiletter control sequences out of 15000+600000
- 73393 words of font info for 254 fonts, out of 8000000 for 9000
+ 74043 words of font info for 258 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,14n,94p,1377b,1870s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}
@@ -1148,7 +1148,7 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_submit.pdf (6 pages, 576877 bytes).
+Output written on d1_prov_demo_ssdbm_2017_submit.pdf (6 pages, 576808 bytes).
 PDF statistics:
  377 PDF objects out of 1000 (max. 8388607)
  337 compressed objects within 4 object streams

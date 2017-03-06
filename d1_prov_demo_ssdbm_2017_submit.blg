@@ -14,36 +14,36 @@ Warning--page numbers missing in both pages and numpages fields in rdatatracker
 Warning--empty address in noworkflow
 You've used 12 entries,
             5580 wiz_defined-function locations,
-            1382 strings with 19347 characters,
-and the built_in function-call counts, 15975 in all, are:
-= -- 1685
+            1380 strings with 19228 characters,
+and the built_in function-call counts, 15961 in all, are:
+= -- 1683
 > -- 1201
 < -- 0
 + -- 402
 - -- 434
-* -- 1537
+* -- 1535
 := -- 2128
-add.period$ -- 63
+add.period$ -- 62
 call.type$ -- 12
 change.case$ -- 146
 chr.to.int$ -- 12
 cite$ -- 18
-duplicate$ -- 958
-empty$ -- 680
+duplicate$ -- 957
+empty$ -- 679
 format.name$ -- 458
-if$ -- 3496
+if$ -- 3494
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 35
-newline$ -- 146
+newline$ -- 144
 num.names$ -- 98
-pop$ -- 410
+pop$ -- 411
 preamble$ -- 1
 purify$ -- 206
 quote$ -- 0
 skip$ -- 317
 stack$ -- 0
-substring$ -- 874
+substring$ -- 872
 swap$ -- 124
 text.length$ -- 24
 text.prefix$ -- 0
@@ -52,5 +52,5 @@ type$ -- 156
 warning$ -- 6
 while$ -- 86
 width$ -- 0
-write$ -- 261
+write$ -- 259
 (There were 6 warnings)
