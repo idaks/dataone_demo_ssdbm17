@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 MAR 2017 20:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 MAR 2017 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1051,8 +1051,8 @@ rkƒow-[]org / yw-[]idcc-[]17 / tree / master / OHIBC[]Howe[]
 
 
 Overfull \hbox (21.46611pt too wide) in paragraph at lines 210--211
-[]\OT1/LinuxLibertineT-TLF/m/n/9 (-20) The third cat-e-gory []of[] prove-nance 
-query is \OT1/zi4/m/n/9 multi[]scripts[]multi[]runs
+[]\OT1/LinuxLibertineT-TLF/m/n/9 (-20) The third cat-e-gory of prove-nance quer
+y is \OT1/zi4/m/n/9 multi[]scripts[]multi[]runs
  []
 
 
@@ -1125,7 +1125,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
 Here is how much of TeX's memory you used:
  19813 strings out of 493014
  295297 string characters out of 6133351
- 506809 words of memory out of 5000000
+ 506713 words of memory out of 5000000
  22548 multiletter control sequences out of 15000+600000
  74043 words of font info for 258 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -1148,7 +1148,7 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb
 B.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
 tineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on d1_prov_demo_ssdbm_2017_submit.pdf (6 pages, 576808 bytes).
+Output written on d1_prov_demo_ssdbm_2017_submit.pdf (6 pages, 576625 bytes).
 PDF statistics:
  377 PDF objects out of 1000 (max. 8388607)
  337 compressed objects within 4 object streams
